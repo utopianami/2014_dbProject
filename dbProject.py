@@ -8,8 +8,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    sql = "INSERT INTO user (age, sex) VALUES (%s, %d,%d)" %("aaa", 188,90)
-    print sql
     return render_template('index.html')
 
 
