@@ -3,10 +3,15 @@ import MySQLdb
 
 
 db = MySQLdb.connect("10.73.45.56", "utopianami", "next1234", "music")
-#db = MySQLdb.connect(host="10.73.45.56", port=3306, user="next", passwd="next1234", db="music")
 cursor = db.cursor()
 
 t = "asdf"
-cursor.execute("INSERT INTO test VALUES (%s, %s)" , (444, t))
+nameList = ["nam", "jang", "lee", "kim", "in", "yang", "ho", "doek", "jung"]
+
+
+i = 0
+for name in nameList:
+    cursor.execute("insert into dbMember values (%s, %s)", (name, i))
+    i+=1
 db.commit()
 

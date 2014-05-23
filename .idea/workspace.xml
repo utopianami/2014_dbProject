@@ -12,8 +12,9 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/dbProject$linux.coverage" NAME="linux Coverage Results" MODIFIED="1396875074784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dbProject$gradation.coverage" NAME="gradation Coverage Results" MODIFIED="1396938730230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dbProject$test.coverage" NAME="test Coverage Results" MODIFIED="1396768776513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dbProject$linux.coverage" NAME="linux Coverage Results" MODIFIED="1397476124998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dbProject$dbProject.coverage" NAME="dbProject Coverage Results" MODIFIED="1396798215234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -28,36 +29,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dbProject.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="dbProject.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dbProject.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="38" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+            <state line="20" column="24" selection-start="454" selection-end="454" vertical-scroll-proportion="0.4331307" vertical-offset="0" max-vertical-offset="658">
               <folding>
-                <element signature="e#0#49#0" expanded="true" />
-                <marker date="1396871396000" expanded="true" signature="89:755" placeholder="Insert into ..." />
-                <marker date="1396871396000" expanded="true" signature="120:161" placeholder="..." />
-                <marker date="1396871396000" expanded="true" signature="454:754" placeholder="INSERT INTO ..." />
                 <marker date="1396871396000" expanded="true" signature="488:541" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linux.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/linux.py">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="59" selection-start="278" selection-end="278" vertical-scroll-proportion="0.19940916" vertical-offset="0" max-vertical-offset="677">
-              <folding>
-                <marker date="1396875073000" expanded="true" signature="235:267" placeholder="INSERT INTO ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cursors.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///Library/Python/2.7/site-packages/MySQLdb/cursors.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="186" column="0" selection-start="5515" selection-end="5515" vertical-scroll-proportion="0.0" vertical-offset="2545" max-vertical-offset="8190">
+            <state line="11" column="25" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -76,6 +62,7 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/dbProject.py" />
+        <option value="$PROJECT_DIR$/gradation.py" />
         <option value="$PROJECT_DIR$/linux.py" />
       </list>
     </option>
@@ -83,8 +70,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="49" />
     <option name="y" value="22" />
-    <option name="width" value="934" />
-    <option name="height" value="1178" />
+    <option name="width" value="1231" />
+    <option name="height" value="778" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -203,6 +190,25 @@
       <module name="dbProject" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linux.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="gradation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="dbProject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gradation.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -377,15 +383,17 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.dbProject" />
       <item index="1" class="java.lang.String" itemvalue="Python.test" />
       <item index="2" class="java.lang.String" itemvalue="Python.linux" />
+      <item index="3" class="java.lang.String" itemvalue="Python.gradation" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Python.linux" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.gradation" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -419,19 +427,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="22" width="934" height="1178" extended-state="6" />
-    <editor active="true" />
+    <frame x="49" y="22" width="1231" height="778" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32688767" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22085202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20100926" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3388582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40055248" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -461,12 +469,99 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dbProject.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="8" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <folding>
+            <marker date="1396871396000" expanded="true" signature="488:541" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="25" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbProject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="8" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="585">
+          <folding>
+            <marker date="1396871396000" expanded="true" signature="488:541" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="25" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbProject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="8" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="585">
+          <folding>
+            <marker date="1396871396000" expanded="true" signature="488:541" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="25" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbProject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="38" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <folding>
+            <marker date="1396871396000" expanded="true" signature="488:541" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="0" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/MySQLdb/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="186" column="0" selection-start="5515" selection-end="5515" vertical-scroll-proportion="0.0" vertical-offset="2790" max-vertical-offset="8205" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbProject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="38" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="600">
+          <folding>
+            <marker date="1396871396000" expanded="true" signature="488:541" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="0" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/MySQLdb/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="186" column="0" selection-start="5515" selection-end="5515" vertical-scroll-proportion="0.0" vertical-offset="2790" max-vertical-offset="8205" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbProject.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="0" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="630">
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
-            <marker date="1396871396000" expanded="true" signature="89:755" placeholder="Insert into ..." />
-            <marker date="1396871396000" expanded="true" signature="120:161" placeholder="..." />
-            <marker date="1396871396000" expanded="true" signature="454:754" placeholder="INSERT INTO ..." />
             <marker date="1396871396000" expanded="true" signature="488:541" placeholder="INSERT INTO ..." />
           </folding>
         </state>
@@ -476,10 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="720">
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
-            <marker date="1396871396000" expanded="true" signature="89:755" placeholder="Insert into ..." />
-            <marker date="1396871396000" expanded="true" signature="120:161" placeholder="..." />
-            <marker date="1396871396000" expanded="true" signature="454:754" placeholder="INSERT INTO ..." />
             <marker date="1396871396000" expanded="true" signature="488:541" placeholder="INSERT INTO ..." />
           </folding>
         </state>
@@ -489,10 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="510">
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
-            <marker date="1396871396000" expanded="true" signature="89:755" placeholder="Insert into ..." />
-            <marker date="1396871396000" expanded="true" signature="120:161" placeholder="..." />
-            <marker date="1396871396000" expanded="true" signature="454:754" placeholder="INSERT INTO ..." />
             <marker date="1396871396000" expanded="true" signature="488:541" placeholder="INSERT INTO ..." />
           </folding>
         </state>
@@ -503,41 +590,38 @@
         <state line="771" column="0" selection-start="33937" selection-end="33937" vertical-scroll-proportion="0.0" vertical-offset="10805" max-vertical-offset="27345" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="105" selection-end="105" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="420" />
-      </provider>
-    </entry>
     <entry file="file:///Library/Python/2.7/site-packages/MySQLdb/connections.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="0" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.0" vertical-offset="305" max-vertical-offset="5280" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dbProject.py">
+    <entry file="file://$PROJECT_DIR$/gradation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="38" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-            <marker date="1396871396000" expanded="true" signature="89:755" placeholder="Insert into ..." />
-            <marker date="1396871396000" expanded="true" signature="120:161" placeholder="..." />
-            <marker date="1396871396000" expanded="true" signature="454:754" placeholder="INSERT INTO ..." />
-            <marker date="1396871396000" expanded="true" signature="488:541" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
+        <state line="12" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.4699739" vertical-offset="0" max-vertical-offset="383" />
       </provider>
     </entry>
     <entry file="file:///Library/Python/2.7/site-packages/MySQLdb/cursors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="186" column="0" selection-start="5515" selection-end="5515" vertical-scroll-proportion="0.0" vertical-offset="2545" max-vertical-offset="8190">
+        <state line="186" column="0" selection-start="5515" selection-end="5515" vertical-scroll-proportion="-0.03916449" vertical-offset="2790" max-vertical-offset="8190" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="25" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/linux.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="59" selection-start="278" selection-end="278" vertical-scroll-proportion="0.19940916" vertical-offset="0" max-vertical-offset="677">
+        <state line="17" column="0" selection-start="321" selection-end="321" vertical-scroll-proportion="0.4093098" vertical-offset="0" max-vertical-offset="623" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbProject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="24" selection-start="454" selection-end="454" vertical-scroll-proportion="0.4331307" vertical-offset="0" max-vertical-offset="658">
           <folding>
-            <marker date="1396875073000" expanded="true" signature="235:267" placeholder="INSERT INTO ..." />
+            <marker date="1396871396000" expanded="true" signature="488:541" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
